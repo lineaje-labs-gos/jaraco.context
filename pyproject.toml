@@ -1,5 +1,19 @@
 [build-system]
-requires = ["setuptools>=56", "setuptools_scm[toml]>=3.4.1"]
+requires = [
+    "setuptools>=56",
+    "setuptools_scm[toml]>=3.4.1",
+]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
+
+[project]
+version = "5.3.0+lineaje.1"
+maintainers = [
+    { name = "Lineaje DepFixer", email = "221268890+Lineaje-DepFixer@users.noreply.github.com" },
+]
+
+[project.urls]
+Homepage = "https://github.com/lineaje-labs-gos/jaraco.context"
+Repository = "https://github.com/lineaje-labs-gos/jaraco.context"
+Tracker = "https://github.com/lineaje-labs-gos/jaraco.context/issues"
